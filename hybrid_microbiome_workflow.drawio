@@ -1,89 +1,172 @@
-<mxfile host="www.draw.io" modified="2019-11-30T00:58:27.050Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="-LTZ-Gq7xdusu1FQ7FTP" version="12.3.3" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-30T14:38:07.253Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="0PtpBTF9wclLTCvdcCmT" version="12.3.3" type="github" pages="1">
   <diagram id="aIfodTEEhpYNLTLujZq8" name="Page-1">
-    <mxGraphModel dx="701" dy="753" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1662" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
         <mxCell id="z1Qga7K4hBXqa47U3bRo-19" value="Import/Preprocess" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="75" y="80" width="120" height="60" as="geometry"/>
+          <mxGeometry x="282" y="80" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="z1Qga7K4hBXqa47U3bRo-21" value="Trimmomatic" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
-          <mxGeometry x="75" y="160" width="120" height="60" as="geometry"/>
+          <mxGeometry x="282" y="160" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="z1Qga7K4hBXqa47U3bRo-22" value="Demux, derep and assign ASVs" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="75" y="240" width="120" height="60" as="geometry"/>
+          <mxGeometry x="282" y="240" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="z1Qga7K4hBXqa47U3bRo-24" value="DADA2" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
-          <mxGeometry x="75" y="320" width="120" height="60" as="geometry"/>
+          <mxGeometry x="282" y="320" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="z1Qga7K4hBXqa47U3bRo-25" value="Classfiy ASVs" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="75" y="400" width="120" height="60" as="geometry"/>
+          <mxGeometry x="282" y="400" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="z1Qga7K4hBXqa47U3bRo-26" value="Naiive Bayesian Classification / Silva_132" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
-          <mxGeometry x="75" y="480" width="120" height="60" as="geometry"/>
+          <mxGeometry x="282" y="480" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="z1Qga7K4hBXqa47U3bRo-27" value="Export ASV Table" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="75" y="560" width="120" height="60" as="geometry"/>
+          <mxGeometry x="282" y="560" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="z1Qga7K4hBXqa47U3bRo-28" value="Biom format" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
-          <mxGeometry x="75" y="640" width="120" height="60" as="geometry"/>
+          <mxGeometry x="282" y="640" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="vO8cuKI6ajwZZJrB0dNT-1" value="16S Analysis" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="75" width="120" height="60" as="geometry"/>
+          <mxGeometry x="282" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="vO8cuKI6ajwZZJrB0dNT-2" value="Import/Preprocess" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="245" y="80" width="120" height="60" as="geometry"/>
+          <mxGeometry x="452" y="80" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="vO8cuKI6ajwZZJrB0dNT-3" value="Trimmomatic" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
-          <mxGeometry x="245" y="160" width="120" height="60" as="geometry"/>
+          <mxGeometry x="452" y="160" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="vO8cuKI6ajwZZJrB0dNT-4" value="Remove Host Reads" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="245" y="240" width="120" height="60" as="geometry"/>
+          <mxGeometry x="452" y="240" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="vO8cuKI6ajwZZJrB0dNT-5" value="Kneaddata" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
-          <mxGeometry x="245" y="320" width="120" height="60" as="geometry"/>
+          <mxGeometry x="452" y="320" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="vO8cuKI6ajwZZJrB0dNT-6" value="Classification" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="245" y="400" width="120" height="60" as="geometry"/>
+          <mxGeometry x="452" y="400" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="vO8cuKI6ajwZZJrB0dNT-7" value="Kraken /Silva_132_db" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
-          <mxGeometry x="245" y="480" width="120" height="60" as="geometry"/>
+          <mxGeometry x="452" y="480" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="vO8cuKI6ajwZZJrB0dNT-8" value="Merge kraken Reports" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="245" y="560" width="120" height="60" as="geometry"/>
+          <mxGeometry x="452" y="560" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="vO8cuKI6ajwZZJrB0dNT-9" value="KrakenTools" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
-          <mxGeometry x="245" y="640" width="120" height="60" as="geometry"/>
+          <mxGeometry x="452" y="640" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="vO8cuKI6ajwZZJrB0dNT-10" value="WGS Analysis" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="245" width="120" height="60" as="geometry"/>
+          <mxGeometry x="452" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="vO8cuKI6ajwZZJrB0dNT-13" value="Convert to Phyloseq Object" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="75" y="720" width="120" height="60" as="geometry"/>
+          <mxGeometry x="282" y="720" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="L1kEnAJ-R0f61a4gFqN5-2" value="Convert to Phyloseq Object" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="245" y="720" width="120" height="60" as="geometry"/>
+          <mxGeometry x="452" y="720" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="L1kEnAJ-R0f61a4gFqN5-3" value="Phyloseq" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="75" y="800" width="120" height="60" as="geometry"/>
+          <mxGeometry x="282" y="800" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="L1kEnAJ-R0f61a4gFqN5-5" value="Phyloseq" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="245" y="800" width="120" height="60" as="geometry"/>
+          <mxGeometry x="452" y="800" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="L1kEnAJ-R0f61a4gFqN5-6" value="Cross reference Phyloseq Tax tables" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="155" y="880" width="120" height="60" as="geometry"/>
+          <mxGeometry x="362" y="880" width="120" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="L1kEnAJ-R0f61a4gFqN5-7" value="Phyloseq" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="155" y="960" width="120" height="60" as="geometry"/>
+        <mxCell id="L1kEnAJ-R0f61a4gFqN5-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="L1kEnAJ-R0f61a4gFqN5-7" target="L1kEnAJ-R0f61a4gFqN5-9">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="L1kEnAJ-R0f61a4gFqN5-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="L1kEnAJ-R0f61a4gFqN5-7" target="L1kEnAJ-R0f61a4gFqN5-8">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="L1kEnAJ-R0f61a4gFqN5-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="L1kEnAJ-R0f61a4gFqN5-7" target="L1kEnAJ-R0f61a4gFqN5-10">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="L1kEnAJ-R0f61a4gFqN5-7" value="HYBRID_NAME" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="362" y="960" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="L1kEnAJ-R0f61a4gFqN5-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L1kEnAJ-R0f61a4gFqN5-8" target="L1kEnAJ-R0f61a4gFqN5-11">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="L1kEnAJ-R0f61a4gFqN5-8" value="16S only taxa" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="20" y="1040" width="120" height="60" as="geometry"/>
+          <mxGeometry x="227" y="1040" width="120" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="L1kEnAJ-R0f61a4gFqN5-9" value="WGS only taxa" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="1040" width="120" height="60" as="geometry"/>
+        <mxCell id="L1kEnAJ-R0f61a4gFqN5-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L1kEnAJ-R0f61a4gFqN5-11" target="L1kEnAJ-R0f61a4gFqN5-25">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="L1kEnAJ-R0f61a4gFqN5-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="L1kEnAJ-R0f61a4gFqN5-11" target="L1kEnAJ-R0f61a4gFqN5-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="147" y="1210" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L1kEnAJ-R0f61a4gFqN5-11" value="Chimera" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="227" y="1180" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="L1kEnAJ-R0f61a4gFqN5-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L1kEnAJ-R0f61a4gFqN5-25" target="L1kEnAJ-R0f61a4gFqN5-27">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="L1kEnAJ-R0f61a4gFqN5-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="L1kEnAJ-R0f61a4gFqN5-25" target="L1kEnAJ-R0f61a4gFqN5-34">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="L1kEnAJ-R0f61a4gFqN5-25" value="Contamination" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="227" y="1320" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="L1kEnAJ-R0f61a4gFqN5-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L1kEnAJ-R0f61a4gFqN5-27" target="L1kEnAJ-R0f61a4gFqN5-36">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="L1kEnAJ-R0f61a4gFqN5-27" value="Query overall WGS Coverage Depth" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="227" y="1460" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="L1kEnAJ-R0f61a4gFqN5-36" value="BEDtools?" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="27" y="1460" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="L1kEnAJ-R0f61a4gFqN5-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L1kEnAJ-R0f61a4gFqN5-9" target="L1kEnAJ-R0f61a4gFqN5-13">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="L1kEnAJ-R0f61a4gFqN5-9" value="16S &amp;amp; WGS Taxa Match" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="367" y="1040" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="L1kEnAJ-R0f61a4gFqN5-13" value="Real Read" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="367" y="1461" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="L1kEnAJ-R0f61a4gFqN5-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L1kEnAJ-R0f61a4gFqN5-10" target="L1kEnAJ-R0f61a4gFqN5-15">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="L1kEnAJ-R0f61a4gFqN5-10" value="WGS only taxa" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="295" y="1040" width="120" height="60" as="geometry"/>
+          <mxGeometry x="502" y="1040" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="L1kEnAJ-R0f61a4gFqN5-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L1kEnAJ-R0f61a4gFqN5-15" target="L1kEnAJ-R0f61a4gFqN5-21">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="L1kEnAJ-R0f61a4gFqN5-15" value="Primer design or Contamination" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="502" y="1180" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="L1kEnAJ-R0f61a4gFqN5-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L1kEnAJ-R0f61a4gFqN5-21" target="L1kEnAJ-R0f61a4gFqN5-23">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="L1kEnAJ-R0f61a4gFqN5-21" value="Check Primer Sites for binding affinity" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="502" y="1320" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="L1kEnAJ-R0f61a4gFqN5-23" value="Real Read" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="502" y="1460" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="L1kEnAJ-R0f61a4gFqN5-31" value="ChimeraSlayer" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="24" y="1180" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="L1kEnAJ-R0f61a4gFqN5-34" value="Decontam" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="24" y="1320" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="L1kEnAJ-R0f61a4gFqN5-41" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="1540" as="sourcePoint"/>
+            <mxPoint x="20" y="1590" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L1kEnAJ-R0f61a4gFqN5-42" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="1620" as="sourcePoint"/>
+            <mxPoint x="10" y="1670" as="targetPoint"/>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
