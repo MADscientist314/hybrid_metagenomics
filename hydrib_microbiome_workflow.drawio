@@ -1,1 +1,67 @@
-<mxfile host="www.draw.io" modified="2019-11-30T00:46:48.222Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="YauYc-rAMc9Sz0TsK1j7" version="12.3.3" type="github" pages="1"><diagram id="aIfodTEEhpYNLTLujZq8" name="Page-1">1ZbbcpswEIafhsvOcIzdSxu7h8mkJ6dJbmVYg6YSokIEyNN3BQLMMJm2FxnsG2b167Do0w8rywt5/VGSPL0TMTDLtePa8naW665sB59aaIwQeJ2QSBp3kjMKB/oCRrSNWtIYislAJQRTNJ+KkcgyiNREI1KKajrsJNg0a04SmAmHiLC5+khjlXbqOrBH/RPQJO0zO7bp4aQfbIQiJbGoziRvb3mhFEJ1Ea9DYJpdz6Wb9+GV3uHFJGTqXya8ON8Tsrr10+3Tb+KvfnrHH+Kd875b5pmw0uz4M8+FVLjONwm5FBEUhdmAanoqUpRZDHph2/K2VUoVHHIS6d4KbYBaqjjDloOhyQBSQf3quzsDEXQSCA5KNjjETOgZNtNmNZ6I02vp2WncGI0YEyTDwiMnDAyq/8DW7+AM272knAs8dRrNcOHR5zrscf4V2ZFEv5IW8tdSMZrBm6Ec/LocS3fGcge8rC031P8NQBfqtFncJi9okmGwOTxcnCud9eIo/TnKzW7jXpMhBzrLUQxmFEOGzjvR5kKd5/mLM7uZMftCKH0G1LakgYIS/dm2HOmJRvibFNk12dJfvuasZoj3dVeqtSnxeU+OSPLCvBksX2DWM3BbKnh7G5RYsK/JhsEb1hhsjrfRtu/sSu/t/wA=</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2019-11-30T00:52:26.673Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="LYAVg6t_CkweoHMQZwim" version="12.3.3" type="github" pages="1">
+  <diagram id="aIfodTEEhpYNLTLujZq8" name="Page-1">
+    <mxGraphModel dx="701" dy="753" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="z1Qga7K4hBXqa47U3bRo-19" value="Import/Preprocess" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="20" y="80" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="z1Qga7K4hBXqa47U3bRo-21" value="Trimmomatic" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="20" y="160" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="z1Qga7K4hBXqa47U3bRo-22" value="Demux, derep and assign ASVs" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="20" y="240" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="z1Qga7K4hBXqa47U3bRo-24" value="DADA2" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="20" y="320" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="z1Qga7K4hBXqa47U3bRo-25" value="Classfiy ASVs" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="20" y="400" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="z1Qga7K4hBXqa47U3bRo-26" value="Naiive Bayesian Classification / Silva_132" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="20" y="480" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="z1Qga7K4hBXqa47U3bRo-27" value="Export ASV Table" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="20" y="560" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="z1Qga7K4hBXqa47U3bRo-28" value="Biom format" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="20" y="640" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="vO8cuKI6ajwZZJrB0dNT-1" value="16S Analysis" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="vO8cuKI6ajwZZJrB0dNT-2" value="Import/Preprocess" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="80" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="vO8cuKI6ajwZZJrB0dNT-3" value="Trimmomatic" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="160" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="vO8cuKI6ajwZZJrB0dNT-4" value="Remove Host Reads" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="240" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="vO8cuKI6ajwZZJrB0dNT-5" value="Kneaddata" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="320" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="vO8cuKI6ajwZZJrB0dNT-6" value="Classification" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="400" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="vO8cuKI6ajwZZJrB0dNT-7" value="Kraken /Silva_132_db" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="480" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="vO8cuKI6ajwZZJrB0dNT-8" value="Merge kraken Reports" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="560" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="vO8cuKI6ajwZZJrB0dNT-9" value="KrakenTools" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="640" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="vO8cuKI6ajwZZJrB0dNT-10" value="WGS Analysis" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="vO8cuKI6ajwZZJrB0dNT-13" value="Phyloseq/Vegan" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="720" width="120" height="60" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
