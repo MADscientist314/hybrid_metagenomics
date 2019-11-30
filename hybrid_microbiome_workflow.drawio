@@ -1,20 +1,35 @@
-<mxfile host="www.draw.io" modified="2019-11-30T15:45:38.144Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="RgckZPqF7hwQoQ5_pM23" version="12.3.3" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-30T15:53:08.321Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="pnkHgPOLlT5-tO5ZUtRz" version="12.3.3" type="github" pages="1">
   <diagram id="aIfodTEEhpYNLTLujZq8" name="Page-1">
     <mxGraphModel dx="1662" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
+        <mxCell id="L1kEnAJ-R0f61a4gFqN5-131" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="z1Qga7K4hBXqa47U3bRo-22" target="z1Qga7K4hBXqa47U3bRo-24">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
         <mxCell id="z1Qga7K4hBXqa47U3bRo-22" value="Import amplicon sequences, &lt;br&gt;Filter for Quality, Demultiplex, Dereplicate, &lt;br&gt;and &lt;br&gt;assign ASVs" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="282" y="240" width="120" height="220" as="geometry"/>
+          <mxGeometry x="282" y="290" width="120" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="L1kEnAJ-R0f61a4gFqN5-130" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="z1Qga7K4hBXqa47U3bRo-24" target="z1Qga7K4hBXqa47U3bRo-25">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="z1Qga7K4hBXqa47U3bRo-24" value="DADA2" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
           <mxGeometry x="282" y="480" width="120" height="60" as="geometry"/>
         </mxCell>
+        <mxCell id="L1kEnAJ-R0f61a4gFqN5-129" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="z1Qga7K4hBXqa47U3bRo-25" target="z1Qga7K4hBXqa47U3bRo-26">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
         <mxCell id="z1Qga7K4hBXqa47U3bRo-25" value="Classfiy ASVs" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="282" y="560" width="120" height="60" as="geometry"/>
         </mxCell>
+        <mxCell id="L1kEnAJ-R0f61a4gFqN5-128" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="z1Qga7K4hBXqa47U3bRo-26" target="z1Qga7K4hBXqa47U3bRo-27">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
         <mxCell id="z1Qga7K4hBXqa47U3bRo-26" value="Naiive Bayesian Classification / Silva_132" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
           <mxGeometry x="282" y="640" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="L1kEnAJ-R0f61a4gFqN5-127" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="z1Qga7K4hBXqa47U3bRo-27" target="z1Qga7K4hBXqa47U3bRo-28">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="z1Qga7K4hBXqa47U3bRo-27" value="Export ASV taxonomy table" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="282" y="720" width="120" height="60" as="geometry"/>
@@ -29,35 +44,79 @@
         <mxCell id="z1Qga7K4hBXqa47U3bRo-28" value="sed / awk" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
           <mxGeometry x="282" y="800" width="120" height="60" as="geometry"/>
         </mxCell>
+        <mxCell id="L1kEnAJ-R0f61a4gFqN5-132" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vO8cuKI6ajwZZJrB0dNT-1" target="z1Qga7K4hBXqa47U3bRo-22">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
         <mxCell id="vO8cuKI6ajwZZJrB0dNT-1" value="16S Analysis" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="282" y="160" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="L1kEnAJ-R0f61a4gFqN5-143" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vO8cuKI6ajwZZJrB0dNT-2" target="vO8cuKI6ajwZZJrB0dNT-3">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="vO8cuKI6ajwZZJrB0dNT-2" value="Import/Preprocess" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="367" width="120" height="60" as="geometry"/>
         </mxCell>
+        <mxCell id="L1kEnAJ-R0f61a4gFqN5-141" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vO8cuKI6ajwZZJrB0dNT-3" target="vO8cuKI6ajwZZJrB0dNT-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="342" y="130"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L1kEnAJ-R0f61a4gFqN5-142" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vO8cuKI6ajwZZJrB0dNT-3" target="vO8cuKI6ajwZZJrB0dNT-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="512" y="140"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="vO8cuKI6ajwZZJrB0dNT-3" value="Trimmomatic" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
           <mxGeometry x="367" y="80" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="L1kEnAJ-R0f61a4gFqN5-134" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vO8cuKI6ajwZZJrB0dNT-4" target="vO8cuKI6ajwZZJrB0dNT-5">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="vO8cuKI6ajwZZJrB0dNT-4" value="Remove Host Reads" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="452" y="240" width="120" height="60" as="geometry"/>
         </mxCell>
+        <mxCell id="L1kEnAJ-R0f61a4gFqN5-135" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vO8cuKI6ajwZZJrB0dNT-5" target="vO8cuKI6ajwZZJrB0dNT-6">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
         <mxCell id="vO8cuKI6ajwZZJrB0dNT-5" value="Kneaddata" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
           <mxGeometry x="452" y="320" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="L1kEnAJ-R0f61a4gFqN5-136" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vO8cuKI6ajwZZJrB0dNT-6" target="vO8cuKI6ajwZZJrB0dNT-7">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="vO8cuKI6ajwZZJrB0dNT-6" value="Classification" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="452" y="400" width="120" height="60" as="geometry"/>
         </mxCell>
+        <mxCell id="L1kEnAJ-R0f61a4gFqN5-137" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vO8cuKI6ajwZZJrB0dNT-7" target="vO8cuKI6ajwZZJrB0dNT-8">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
         <mxCell id="vO8cuKI6ajwZZJrB0dNT-7" value="Kraken /Silva_132_db" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
           <mxGeometry x="452" y="480" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="L1kEnAJ-R0f61a4gFqN5-138" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vO8cuKI6ajwZZJrB0dNT-8" target="vO8cuKI6ajwZZJrB0dNT-9">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="vO8cuKI6ajwZZJrB0dNT-8" value="Merge kraken Reports" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="452" y="560" width="120" height="60" as="geometry"/>
         </mxCell>
+        <mxCell id="L1kEnAJ-R0f61a4gFqN5-139" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vO8cuKI6ajwZZJrB0dNT-9" target="L1kEnAJ-R0f61a4gFqN5-2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
         <mxCell id="vO8cuKI6ajwZZJrB0dNT-9" value="KrakenTools" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
           <mxGeometry x="452" y="640" width="120" height="60" as="geometry"/>
         </mxCell>
+        <mxCell id="L1kEnAJ-R0f61a4gFqN5-133" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vO8cuKI6ajwZZJrB0dNT-10" target="vO8cuKI6ajwZZJrB0dNT-4">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
         <mxCell id="vO8cuKI6ajwZZJrB0dNT-10" value="WGS Analysis" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="452" y="160" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="L1kEnAJ-R0f61a4gFqN5-140" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="L1kEnAJ-R0f61a4gFqN5-2" target="L1kEnAJ-R0f61a4gFqN5-5">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="L1kEnAJ-R0f61a4gFqN5-2" value="Export Taxonomy Table" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="452" y="720" width="120" height="60" as="geometry"/>
@@ -71,6 +130,9 @@
         </mxCell>
         <mxCell id="L1kEnAJ-R0f61a4gFqN5-5" value="sed / awk" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="452" y="800" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="L1kEnAJ-R0f61a4gFqN5-144" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="L1kEnAJ-R0f61a4gFqN5-6" target="L1kEnAJ-R0f61a4gFqN5-7">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="L1kEnAJ-R0f61a4gFqN5-6" value="Cross reference Phyloseq Tax tables" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="362" y="880" width="120" height="60" as="geometry"/>
@@ -125,6 +187,13 @@
         <mxCell id="L1kEnAJ-R0f61a4gFqN5-9" value="16S &amp;amp; WGS Taxa Match" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="367" y="1040" width="120" height="60" as="geometry"/>
         </mxCell>
+        <mxCell id="L1kEnAJ-R0f61a4gFqN5-146" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="L1kEnAJ-R0f61a4gFqN5-13" target="L1kEnAJ-R0f61a4gFqN5-119">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="427" y="1890"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="L1kEnAJ-R0f61a4gFqN5-13" value="Export Table of 16S &amp;amp; WGS identified Taxa" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="367" y="1520" width="120" height="60" as="geometry"/>
         </mxCell>
@@ -164,6 +233,9 @@
         <mxCell id="L1kEnAJ-R0f61a4gFqN5-68" value="Detect WGS False Positives" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="502" y="1645" width="120" height="60" as="geometry"/>
         </mxCell>
+        <mxCell id="L1kEnAJ-R0f61a4gFqN5-123" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="L1kEnAJ-R0f61a4gFqN5-23" target="L1kEnAJ-R0f61a4gFqN5-119">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
         <mxCell id="L1kEnAJ-R0f61a4gFqN5-23" value="Export Table of WGS Only detected non chimeric, non contaminant taxa" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="502" y="1736" width="120" height="60" as="geometry"/>
         </mxCell>
@@ -182,6 +254,13 @@
         <mxCell id="L1kEnAJ-R0f61a4gFqN5-52" value="Export Chimera summary / table" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="77" y="1201" width="120" height="60" as="geometry"/>
         </mxCell>
+        <mxCell id="L1kEnAJ-R0f61a4gFqN5-120" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="L1kEnAJ-R0f61a4gFqN5-55" target="L1kEnAJ-R0f61a4gFqN5-119">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="137" y="1690"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="L1kEnAJ-R0f61a4gFqN5-55" value="Export 16S Contamination Table Summary" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="77" y="1360" width="120" height="60" as="geometry"/>
         </mxCell>
@@ -190,6 +269,13 @@
         </mxCell>
         <mxCell id="L1kEnAJ-R0f61a4gFqN5-57" value="Samtools" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;labelBackgroundColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="227" y="1438" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="L1kEnAJ-R0f61a4gFqN5-121" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="L1kEnAJ-R0f61a4gFqN5-60" target="L1kEnAJ-R0f61a4gFqN5-119">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="287" y="1810"/>
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="L1kEnAJ-R0f61a4gFqN5-60" value="Export Table of Taxa not detected in WGS due to low abundance /inadequate sequencing depth" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="227" y="1518" width="120" height="100" as="geometry"/>
@@ -200,9 +286,11 @@
         <mxCell id="L1kEnAJ-R0f61a4gFqN5-63" value="Decontam" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;labelBackgroundColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="642" y="1280" width="120" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="L1kEnAJ-R0f61a4gFqN5-80" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="L1kEnAJ-R0f61a4gFqN5-65">
+        <mxCell id="L1kEnAJ-R0f61a4gFqN5-124" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="L1kEnAJ-R0f61a4gFqN5-65" target="L1kEnAJ-R0f61a4gFqN5-119">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="702" y="1438" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="1200" y="1740"/>
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="L1kEnAJ-R0f61a4gFqN5-65" value="Export Contamination Table Summary" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#ffffff;" vertex="1" parent="1">
@@ -271,8 +359,18 @@
         <mxCell id="L1kEnAJ-R0f61a4gFqN5-100" value="Detect False positive based on Assembly coverage" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="1016" y="1800" width="120" height="60" as="geometry"/>
         </mxCell>
+        <mxCell id="L1kEnAJ-R0f61a4gFqN5-126" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="L1kEnAJ-R0f61a4gFqN5-102" target="L1kEnAJ-R0f61a4gFqN5-119">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1076" y="1950"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="L1kEnAJ-R0f61a4gFqN5-102" value="Export Table of WGS False Positive Taxa" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="1016" y="1880" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="L1kEnAJ-R0f61a4gFqN5-119" value="Merge Table into a total summary" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="471" y="1950" width="182" height="60" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
