@@ -1,0 +1,91 @@
+<mxfile host="www.draw.io" modified="2019-11-30T00:58:27.050Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="-LTZ-Gq7xdusu1FQ7FTP" version="12.3.3" type="github" pages="1">
+  <diagram id="aIfodTEEhpYNLTLujZq8" name="Page-1">
+    <mxGraphModel dx="701" dy="753" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="z1Qga7K4hBXqa47U3bRo-19" value="Import/Preprocess" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="75" y="80" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="z1Qga7K4hBXqa47U3bRo-21" value="Trimmomatic" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="75" y="160" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="z1Qga7K4hBXqa47U3bRo-22" value="Demux, derep and assign ASVs" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="75" y="240" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="z1Qga7K4hBXqa47U3bRo-24" value="DADA2" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="75" y="320" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="z1Qga7K4hBXqa47U3bRo-25" value="Classfiy ASVs" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="75" y="400" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="z1Qga7K4hBXqa47U3bRo-26" value="Naiive Bayesian Classification / Silva_132" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="75" y="480" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="z1Qga7K4hBXqa47U3bRo-27" value="Export ASV Table" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="75" y="560" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="z1Qga7K4hBXqa47U3bRo-28" value="Biom format" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="75" y="640" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="vO8cuKI6ajwZZJrB0dNT-1" value="16S Analysis" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="75" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="vO8cuKI6ajwZZJrB0dNT-2" value="Import/Preprocess" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="245" y="80" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="vO8cuKI6ajwZZJrB0dNT-3" value="Trimmomatic" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="245" y="160" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="vO8cuKI6ajwZZJrB0dNT-4" value="Remove Host Reads" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="245" y="240" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="vO8cuKI6ajwZZJrB0dNT-5" value="Kneaddata" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="245" y="320" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="vO8cuKI6ajwZZJrB0dNT-6" value="Classification" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="245" y="400" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="vO8cuKI6ajwZZJrB0dNT-7" value="Kraken /Silva_132_db" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="245" y="480" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="vO8cuKI6ajwZZJrB0dNT-8" value="Merge kraken Reports" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="245" y="560" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="vO8cuKI6ajwZZJrB0dNT-9" value="KrakenTools" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="245" y="640" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="vO8cuKI6ajwZZJrB0dNT-10" value="WGS Analysis" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="245" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="vO8cuKI6ajwZZJrB0dNT-13" value="Convert to Phyloseq Object" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="75" y="720" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="L1kEnAJ-R0f61a4gFqN5-2" value="Convert to Phyloseq Object" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="245" y="720" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="L1kEnAJ-R0f61a4gFqN5-3" value="Phyloseq" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="75" y="800" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="L1kEnAJ-R0f61a4gFqN5-5" value="Phyloseq" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="245" y="800" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="L1kEnAJ-R0f61a4gFqN5-6" value="Cross reference Phyloseq Tax tables" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="155" y="880" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="L1kEnAJ-R0f61a4gFqN5-7" value="Phyloseq" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="155" y="960" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="L1kEnAJ-R0f61a4gFqN5-8" value="16S only taxa" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1040" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="L1kEnAJ-R0f61a4gFqN5-9" value="WGS only taxa" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1040" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="L1kEnAJ-R0f61a4gFqN5-10" value="WGS only taxa" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="1040" width="120" height="60" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
