@@ -1,0 +1,21 @@
+# This file should contain everything to configure the workflow on a global scale.
+# In case of sample based data, it should be complemented by a samples.tsv file that contains
+# one row per sample. It can be parsed easily via pandas.
+
+java_mem: 30
+threads: 4
+
+truncLen:
+  - 180
+  - 100
+maxEE:
+  - 2
+  - 2
+truncQ: 2
+learn_nbases: 100e6
+chimera_method: "consensus"
+max_length_variation: 7
+idtaxa_dbs:
+  Silva: "/mnt/d/github/amplicon-seq-dada2/silva_138/SILVA_SSU_r138_2019.RData"
+  GTDB: "/mnt/d/github/amplicon-seq-dada2/GTDB/GTDB_r89-mod_June2019.RData"
+  RDP: "http://www2.decipher.codes/Classification/TrainingSets/RDP_v16_March2018.RData"
