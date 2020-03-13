@@ -2,12 +2,12 @@
 # In case of sample based data, it should be complemented by a samples.tsv file that contains
 # one row per sample. It can be parsed easily via pandas.
 
-java_mem: 30
-threads: 4
+java_mem: 100
+threads: 16
 
 truncLen:
-  - 180
-  - 100
+  - 0
+  - 0
 maxEE:
   - 2
   - 2

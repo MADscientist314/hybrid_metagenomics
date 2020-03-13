@@ -1,3 +1,8 @@
+# Prepare a sampletable
+Make sure that all your fastq files are unzipped, appended with a _R1.fastq for forward or _R2.fastq for reverse, and located in the path
+
+Then use the command prepare.py followed by the path "./path_to_fastq_files" to create a samples.tsv
+
 # Snakemake workflow: Dada2
 
 [![Snakemake](https://img.shields.io/badge/snakemake-≥5-brightgreen.svg)](https://snakemake.bitbucket.io)
