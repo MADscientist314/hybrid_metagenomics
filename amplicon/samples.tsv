@@ -1,0 +1,4 @@
+	R1	R2
+SRS015072	/vol_c/hybrid_metagenomics/amplicon/SRS015072_R1.fastq.gz	/vol_c/hybrid_metagenomics/amplicon/SRS015072_R2.fastq.gz
+SRS015072.R1	/vol_c/hybrid_metagenomics/amplicon/SRS015072.R1.fastq.gz	
+SRS015072.R2	/vol_c/hybrid_metagenomics/amplicon/SRS015072.R2.fastq.gz	
